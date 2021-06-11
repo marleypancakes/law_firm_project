@@ -1,0 +1,36 @@
+.placeholder {
+    width: 100%;
+    height: 500px;
+}
+
+#redbox-title {
+    margin: 1rem 0 -.8rem 0;
+}
+
+#redbox {
+    border: solid darkred 1px;
+    font-size: .8rem;
+    background-color: darkred;
+    color: white;
+    padding-bottom: .5rem;
+}
+
+#redbox li {
+    list-style-type: none;
+    margin-left: -1.5rem;
+    margin-top: -.1rem;
+}
+
+hr {
+    background-color: white;
+    height: .04rem;
+}
+
+#chair-photo {
+    margin-left: -.3rem;
+    margin-bottom: .3rem;
+}
+
+#list-margin {
+    margin-top: -.5rem;
+}
