@@ -53,7 +53,39 @@
 body {
     background-image: url(../img/nza_background.jpg);
     background-position: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+#contact-links {
+    background-image: url(../img/other_links_background.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    max-width: 200px;
+}
+#contact-links img {
+    max-width: 100%;
+    padding-bottom: 15px;
+    object-fit: contain;
+}
+
+#contact-links a {
+    text-decoration: none;
+    color: #8B465B;
+}
+
+#contact-links p {
+    max-width: 100%;
+}
 }
 
 .pen-paper {
