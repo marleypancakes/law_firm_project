@@ -63,19 +63,20 @@ main {
     background-color: white;
     padding: 20px;
 }
-
+.whitespace {
+    background-color: white;
+}
 #contact-links {
     background-image: url(../img/other_links_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 15px;
     padding-right: 15px;
-    max-width: 200px;
 }
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 #contact-links a {
