@@ -3,3 +3,13 @@ body {
     background-position: fixed;
     background-repeat: no-repeat;
 }
+
+#redbox-title {
+    text-transform: uppercase;
+}
+
+.pen-paper {
+   margin-left: -0.3rem;
+   margin-right: -0,3rem;
+
+}
