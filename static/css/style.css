@@ -1,3 +1,55 @@
+
+#dashdash{
+    color: lightslategray;
+}
+
+.header-border{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.footer-border{
+    border-top: 2px solid black;
+}
+
+#redbox-title {
+    margin: 1rem 0 -.8rem 0;
+    text-transform: uppercase;
+}
+
+#redbox {
+    border: solid darkred 1px;
+    font-size: .8rem;
+    background-color: darkred;
+    color: white;
+    padding-bottom: .5rem;
+}
+
+#redbox li {
+    list-style-type: none;
+    margin-left: -1.5rem;
+    margin-top: -.1rem;
+}
+
+#redbox hr {
+    background-color: white;
+    height: .04rem;
+}
+
+#chair-photo {
+    margin-left: -.3rem;
+    margin-bottom: .3rem;
+}
+
+#list-margin {
+    margin-top: -.5rem;
+}
+
+#contact-tel {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
 body {
     background-image: url(../img/nza_background.jpg);
     background-position: fixed;
@@ -34,3 +86,10 @@ main {
 #contact-links p {
     max-width: 100%;
 }
+}
+
+.pen-paper {
+   margin-left: -0.3rem;
+   margin-right: -0,3rem;
+}
+
