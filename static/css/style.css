@@ -64,6 +64,11 @@ main {
     padding: 20px;
 }
 
+.whitespace {
+    background-color: white;
+}
+
+
 #whatimage {
     padding-top: 2rem;
 }
@@ -74,13 +79,12 @@ main {
     background-repeat: no-repeat;
     padding-top: 15px;
     padding-right: 15px;
-    max-width: 200px;
 }
    
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 #contact-links a {
