@@ -1,3 +1,21 @@
+#page .header-content {
+    background-color: white;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+#page small {
+    font-size: 75%;
+    font-weight: 300;
+}
+
+.login-button > button{
+    margin-right: 10px;
+    background: lightgrey;
+    color: #111;
+    border: transparent;
+    border-radius: 6px;
+    padding: 11px 10px;
 
 #dashdash{
     color: lightslategray;
