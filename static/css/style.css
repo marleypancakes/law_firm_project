@@ -63,9 +63,16 @@ main {
     background-color: white;
     padding: 20px;
 }
+
 .whitespace {
     background-color: white;
 }
+
+
+#whatimage {
+    padding-top: 2rem;
+}
+
 #contact-links {
     background-image: url(../img/other_links_background.jpg);
     background-size: cover;
@@ -73,6 +80,7 @@ main {
     padding-top: 15px;
     padding-right: 15px;
 }
+   
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
@@ -86,7 +94,6 @@ main {
 
 #contact-links p {
     max-width: 100%;
-}
 }
 
 .pen-paper {
