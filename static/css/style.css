@@ -44,7 +44,12 @@
     background-color: darkred;
     color: white;
     padding-bottom: .5rem;
-    overflow: scroll;
+    max-height: 425px;
+}
+
+.news {
+    overflow-y: scroll;
+
 }
 
 #redbox li {
@@ -61,10 +66,6 @@
 #redbox a{
     padding: 20px 20px 0px 20px;
     font-size: 20px;
-}
-
-#redbox p {
-      padding: 0px 20px 0px 20px;
 }
 
 #bigshot ul {
@@ -106,7 +107,6 @@ body {
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    padding: 20px;
 }
 
 main {
