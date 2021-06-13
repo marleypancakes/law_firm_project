@@ -31,17 +31,17 @@
     border-top: 2px solid black;
 }
 
-#redbox-title {
+.redbox-title {
     margin: 1rem 0 -.8rem 0;
     text-transform: uppercase;
 }
 
-#redbox {
+.redbox {
     border: solid darkred 1px;
     font-size: .8rem;
     background-color: darkred;
     color: white;
-    padding-bottom: .5rem;   
+    padding-bottom: 2rem;   
 }
 
 .news {
@@ -49,19 +49,19 @@
   max-height: 425px;
 }
 
-#redbox li {
+.redbox li {
     list-style-type: none;
     margin-left: -1.5rem;
     margin-top: -.1rem;
 }
 
 
-#redbox hr {
+.redbox hr {
     background-color: white;
     height: .04rem;
 }
 
-#redbox a{
+.redbox a{
     padding: 20px 20px 0px 20px;
     font-size: 20px;
 }
@@ -92,6 +92,10 @@
 
 #list-margin {
     margin-top: -.5rem;
+}
+
+#attorneyspaceproblem p {
+    margin: 0rem;
 }
 
 #contact-tel {
