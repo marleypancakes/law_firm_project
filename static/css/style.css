@@ -96,6 +96,7 @@ main {
 
 #whatimage {
     padding-top: 2rem;
+    max-width: 100%;
 }
 
 #contact-links {
