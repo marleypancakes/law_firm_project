@@ -85,6 +85,10 @@ main {
     padding: 20px;
 }
 
+.row {
+    margin: 0 0;
+}
+
 .whitespace {
     background-color: white;
 }
@@ -100,6 +104,7 @@ main {
     background-repeat: no-repeat;
     padding-top: 15px;
     padding-right: 15px;
+    max-width: 200px;
 }
    
 #contact-links img {
