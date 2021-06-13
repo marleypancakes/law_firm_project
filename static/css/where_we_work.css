@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page {
+    background-color: white;
+    padding: 0 3% 0 4%;
+}
+
+#career-img {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.left-nav {
+    background-image: url(../img/nav_side.jpg);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 365px;
+}
+
+.left-nav h6 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+.left-nav hr {
+    margin: none;
+    padding-top: none;
+    border-color: white;
+    border-width: 2px;
+}
+
+.right-content {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 30px;
+}
+
+
+.right-content h6 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #CCCCCC;
+    width: inherit;
+}
+
+.work-list {
+    list-style: none;
+    padding: none;
+    margin: none;
+}
