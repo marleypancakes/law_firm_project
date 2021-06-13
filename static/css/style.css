@@ -1,3 +1,22 @@
+#page .header-content {
+    background-color: white;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+#page small {
+    font-size: 75%;
+    font-weight: 300;
+}
+
+.login-button > button{
+    margin-right: 10px;
+    background: lightgrey;
+    color: #111;
+    border: transparent;
+    border-radius: 6px;
+    padding: 11px 10px;
+}
 
 #dashdash{
     color: lightslategray;
@@ -22,7 +41,12 @@
     font-size: .8rem;
     background-color: darkred;
     color: white;
-    padding-bottom: .5rem;
+    padding-bottom: .5rem;   
+}
+
+.news {
+  overflow-y: scroll;
+  max-height: 425px;
 }
 
 #redbox li {
@@ -31,9 +55,34 @@
     margin-top: -.1rem;
 }
 
+
 #redbox hr {
     background-color: white;
     height: .04rem;
+}
+
+#redbox a{
+    padding: 20px 20px 0px 20px;
+    font-size: 20px;
+}
+
+#bigshot ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bigshot li {
+   margin: 0;
+   padding: 0;
+}
+
+#bigshot {
+    margin-top: 40px;
+}
+
+#bigshot h6 {
+    font-weight: bold;
 }
 
 #chair-photo {
@@ -56,13 +105,22 @@ body {
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    padding: 20px;
 }
 
 main {
     background-color: white;
     padding: 20px;
 }
+
+.row {
+    margin: 0 0;
+}
+
+.whitespace {
+    background-color: white;
+    height: 100%;
+}
+
 
 #whatimage {
     padding-top: 2rem;
@@ -80,7 +138,7 @@ main {
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 #contact-links a {
