@@ -1,4 +1,3 @@
-
 #page .header-content {
     background-color: white;
     padding-left: 35px;
@@ -18,7 +17,6 @@
     border-radius: 6px;
     padding: 11px 10px;
 }
-
 
 #dashdash{
     color: lightslategray;
@@ -43,13 +41,12 @@
     font-size: .8rem;
     background-color: darkred;
     color: white;
-    padding-bottom: .5rem;
-    max-height: 425px;
+    padding-bottom: .5rem;   
 }
 
 .news {
-    overflow-y: scroll;
-
+  overflow-y: scroll;
+  max-height: 425px;
 }
 
 #redbox li {
@@ -57,6 +54,7 @@
     margin-left: -1.5rem;
     margin-top: -.1rem;
 }
+
 
 #redbox hr {
     background-color: white;
@@ -125,7 +123,6 @@ main {
 
 #whatimage {
     padding-top: 2rem;
-    max-width: 100%;
 }
 
 #contact-links {
@@ -136,7 +133,7 @@ main {
     padding-right: 15px;
     max-width: 200px;
 }
-  
+   
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
@@ -156,3 +153,4 @@ main {
    margin-left: -0.3rem;
    margin-right: -0,3rem;
 }
+
