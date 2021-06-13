@@ -102,6 +102,9 @@ main {
     background-image: url(../img/other_links_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+<<<<<<< HEAD
+}
+=======
     padding-top: 15px;
     padding-right: 15px;
     max-width: 200px;
@@ -127,3 +130,4 @@ main {
    margin-right: -0,3rem;
 }
 
+>>>>>>> main
