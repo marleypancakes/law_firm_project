@@ -1,7 +1,41 @@
-body {
-    background-image: url(../img/nza_background.jpg);
-    background-position: fixed;
-    background-repeat: no-repeat;
+
+#page .header-content {
+    background-color: white;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+#page small {
+    font-size: 75%;
+    font-weight: 300;
+}
+
+.login-button > button{
+    margin-right: 10px;
+    background: lightgrey;
+    color: #111;
+    border: transparent;
+    border-radius: 6px;
+    padding: 11px 10px;
+}
+
+
+#dashdash{
+    color: lightslategray;
+}
+
+.header-border{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.footer-border{
+    border-top: 2px solid black;
+}
+
+#redbox-title {
+    margin: 1rem 0 -.8rem 0;
+    text-transform: uppercase;
 }
 
 #redbox {
@@ -11,32 +45,113 @@ body {
     color: white;
     padding-bottom: .5rem;
     overflow: scroll;
-    max-height: 425px;
-    max-width: 220px;
 }
+
+#redbox li {
+    list-style-type: none;
+    margin-left: -1.5rem;
+    margin-top: -.1rem;
+}
+
 #redbox hr {
     background-color: white;
     height: .04rem;
 }
-ul {
+
+#redbox a{
+    padding: 20px 20px 0px 20px;
+    font-size: 20px;
+}
+
+#redbox p {
+      padding: 0px 20px 0px 20px;
+}
+
+#bigshot ul {
     list-style-type: none;
     margin: 0;
-   padding: 0;
+    padding: 0;
 }
+
 #bigshot li {
    margin: 0;
    padding: 0;
 }
+
 #bigshot {
     margin-top: 40px;
 }
-a{
-    padding: 20px 20px 0px 20px;
-    font-size: 20px;
-}
-p {
-      padding: 0px 20px 0px 20px;
-}
-h6 {
+
+#bigshot h6 {
     font-weight: bold;
+}
+
+#chair-photo {
+    margin-left: -.3rem;
+    margin-bottom: .3rem;
+}
+
+#list-margin {
+    margin-top: -.5rem;
+}
+
+#contact-tel {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+body {
+    background-image: url(../img/nza_background.jpg);
+    background-position: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+.row {
+    margin: 0 0;
+}
+
+.whitespace {
+    background-color: white;
+}
+
+
+#whatimage {
+    padding-top: 2rem;
+}
+
+#contact-links {
+    background-image: url(../img/other_links_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    max-width: 200px;
+}
+  
+#contact-links img {
+    max-width: 100%;
+    padding-bottom: 15px;
+    object-fit: fill;
+}
+
+#contact-links a {
+    text-decoration: none;
+    color: #8B465B;
+}
+
+#contact-links p {
+    max-width: 100%;
+}
+
+.pen-paper {
+   margin-left: -0.3rem;
+   margin-right: -0,3rem;
 }
