@@ -44,6 +44,7 @@
     background-color: darkred;
     color: white;
     padding-bottom: .5rem;
+    overflow: scroll;
 }
 
 #redbox li {
@@ -55,6 +56,34 @@
 #redbox hr {
     background-color: white;
     height: .04rem;
+}
+
+#redbox a{
+    padding: 20px 20px 0px 20px;
+    font-size: 20px;
+}
+
+#redbox p {
+      padding: 0px 20px 0px 20px;
+}
+
+#bigshot ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bigshot li {
+   margin: 0;
+   padding: 0;
+}
+
+#bigshot {
+    margin-top: 40px;
+}
+
+#bigshot h6 {
+    font-weight: bold;
 }
 
 #chair-photo {
@@ -105,7 +134,7 @@ main {
     padding-right: 15px;
     max-width: 200px;
 }
-   
+  
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
@@ -125,4 +154,3 @@ main {
    margin-left: -0.3rem;
    margin-right: -0,3rem;
 }
-
