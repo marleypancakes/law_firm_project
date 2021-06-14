@@ -68,6 +68,7 @@
 
 #news-divider {
     margin: 5px 0;
+    background-color: white;
 }
 
 #redbox li {
@@ -78,6 +79,7 @@
 
 #redbox hr {
     background-color: white;
+    color: white;
     height: .04rem;
 }
 
@@ -109,9 +111,6 @@
     margin-bottom: .3rem;
 }
 
-#list-margin {
-    margin-top: -.5rem;
-}
 
 #contact-tel {
     padding-bottom: 20px;
