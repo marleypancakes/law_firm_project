@@ -31,8 +31,17 @@
     border-top: 2px solid black;
 }
 
+.contact-redbox {
+    height: 400px;
+    padding-top: 5px;
+}
+
+.contact-redbox p {
+    font-size: medium;
+}
+
 .redbox-title {
-    margin: 1rem 0 -.8rem 0;
+    margin: 1rem 0 0 0;
     text-transform: uppercase;
 }
 
@@ -147,7 +156,7 @@ strong {
     background-repeat: no-repeat;
     padding-top: 15px;
     padding-right: 15px;
-    max-width: 200px;
+    height: 425px;
 }
    
 #contact-links img {
@@ -156,9 +165,14 @@ strong {
     object-fit: fill;
 }
 
-#contact-links a {
+#contact-links-top a {
     text-decoration: none;
     color: #8B465B;
+}
+
+#contact-links-bottom a {
+    text-decoration: none;
+    color: black;
 }
 
 #contact-links p {
@@ -167,6 +181,8 @@ strong {
 
 .pen-paper {
    margin-left: -0.3rem;
-   margin-right: -0,3rem;
+   margin-right: -0.3rem;
+   margin-bottom: 10px;
+   width: inherit;
 }
 
