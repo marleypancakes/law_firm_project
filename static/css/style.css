@@ -1,3 +1,23 @@
+#page .header-content {
+    background-color: white;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+#page small {
+    font-size: 75%;
+    font-weight: 300;
+}
+
+.login-button > button{
+    margin-right: 10px;
+    background: lightgrey;
+    color: #111;
+    border: transparent;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin-bottom: 11px;
+}
 
 #dashdash{
     color: lightslategray;
@@ -12,28 +32,77 @@
     border-top: 2px solid black;
 }
 
-#redbox-title {
-    margin: 1rem 0 -.8rem 0;
+.contact-redbox {
+    height: 400px;
+    padding-top: 5px;
+}
+
+.contact-redbox p {
+    font-size: medium;
+}
+
+.what-redbox {
+    display: inline-block;
+    background-size: cover;
+    max-width: 186px;
+    padding-bottom: 20px;
+}
+
+.redbox-title {
+    margin: 1rem 0 0 0;
     text-transform: uppercase;
 }
 
-#redbox {
-    border: solid darkred 1px;
+.redbox {
     font-size: .8rem;
-    background-color: darkred;
+    background-image: url(../img/nav_side.jpg);
     color: white;
-    padding-bottom: .5rem;
 }
 
-#redbox li {
+.news {
+  overflow-y: scroll;
+  height: 486px;
+  width: inherit;
+  padding: 15px 20px;
+}
+
+#news-divider {
+    margin: 5px 0;
+}
+
+.redbox li {
     list-style-type: none;
     margin-left: -1.5rem;
     margin-top: -.1rem;
 }
 
-#redbox hr {
+
+.redbox hr {
     background-color: white;
     height: .04rem;
+}
+
+.redbox a{
+    font-size: 20px;
+}
+
+.redbox img{
+    object-fit: fill;
+}
+
+#bigshot ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#bigshot li {
+   margin: 0;
+   padding: 0;
+}
+
+#bigshot h6 {
+    font-weight: bold;
 }
 
 #chair-photo {
@@ -45,6 +114,10 @@
     margin-top: -.5rem;
 }
 
+#attorneyspaceproblem p {
+    margin: 0rem;
+}
+
 #contact-tel {
     padding-bottom: 20px;
     width: 100%;
@@ -54,11 +127,8 @@ body {
     background-image: url(../img/nza_background.jpg);
     background-position: fixed;
     background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arimo', Arial, Helvetica, sans-serif;
     font-weight: 100;
-    padding: 20px;
-    font-family: 'Arimo', sans-serif;
-    
 }
 
 main {
@@ -66,8 +136,37 @@ main {
     padding: 20px;
 }
 
-#whatimage {
-    padding-top: 2rem;
+strong {
+    font-weight: bold;
+}
+
+.row {
+    margin: 0 0;
+}
+
+.whitespace {
+    background-color: white;
+    height: 100%;
+}
+
+
+.index-top {
+    margin-bottom: 20px;
+}
+
+#index-img {
+    width: inherit;
+}
+
+.whatimage {
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.whatcol {
+    padding-left: 0;
+    margin-right: 5px;
 }
 
 #contact-links {
@@ -76,18 +175,24 @@ main {
     background-repeat: no-repeat;
     padding-top: 15px;
     padding-right: 15px;
+    height: 425px;
     max-width: 200px;
 }
    
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
-    object-fit: contain;
+    object-fit: fill;
 }
 
-#contact-links a {
+#contact-links-top a {
     text-decoration: none;
     color: #8B465B;
+}
+
+#contact-links-bottom a {
+    text-decoration: none;
+    color: black;
 }
 
 #contact-links p {
@@ -96,6 +201,8 @@ main {
 
 .pen-paper {
    margin-left: -0.3rem;
-   margin-right: -0,3rem;
+   margin-right: -0.3rem;
+   margin-bottom: 10px;
+   width: inherit;
 }
 
