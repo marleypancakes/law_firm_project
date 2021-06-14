@@ -37,16 +37,20 @@
 }
 
 .redbox {
-    border: solid darkred 1px;
     font-size: .8rem;
-    background-color: darkred;
+    background-image: url(../img/nav_side.jpg);
     color: white;
-    padding-bottom: 2rem;   
 }
 
 .news {
   overflow-y: scroll;
-  max-height: 425px;
+  height: 486px;
+  width: inherit;
+  padding: 15px 20px;
+}
+
+#news-divider {
+    margin: 5px 0;
 }
 
 .redbox li {
@@ -62,7 +66,6 @@
 }
 
 .redbox a{
-    padding: 20px 20px 0px 20px;
     font-size: 20px;
 }
 
@@ -75,10 +78,6 @@
 #bigshot li {
    margin: 0;
    padding: 0;
-}
-
-#bigshot {
-    margin-top: 40px;
 }
 
 #bigshot h6 {
@@ -116,6 +115,10 @@ main {
     padding: 20px;
 }
 
+strong {
+    font-weight: bold;
+}
+
 .row {
     margin: 0 0;
 }
@@ -125,6 +128,14 @@ main {
     height: 100%;
 }
 
+
+.index-top {
+    margin-bottom: 20px;
+}
+
+#index-img {
+    width: inherit;
+}
 
 #whatimage {
     padding-top: 2rem;
