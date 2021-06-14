@@ -144,6 +144,14 @@ strong {
     margin: 0 0;
 }
 
+.row-eq-height > .column:last-of-type {
+  display: flex;
+}
+
+.row-eq-height > .column:last-of-type .redbox {
+  flex-grow: 1;
+}
+
 .whitespace {
     background-color: white;
     height: 100%;
