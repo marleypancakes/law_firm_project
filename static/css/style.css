@@ -15,7 +15,8 @@
     color: #111;
     border: transparent;
     border-radius: 6px;
-    padding: 11px 10px;
+    padding: 0 10px;
+    margin-bottom: 11px;
 }
 
 #dashdash{
@@ -38,6 +39,11 @@
 
 .contact-redbox p {
     font-size: medium;
+}
+
+.what-redbox {
+    height: 600px;
+    background-size: cover;
 }
 
 .redbox-title {
@@ -146,8 +152,15 @@ strong {
     width: inherit;
 }
 
-#whatimage {
-    padding-top: 2rem;
+.whatimage {
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.whatcol {
+    padding-left: 0;
+    margin-right: 5px;
 }
 
 #contact-links {
