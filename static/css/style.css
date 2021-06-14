@@ -15,7 +15,8 @@
     color: #111;
     border: transparent;
     border-radius: 6px;
-    padding: 11px 10px;
+    padding: 0 10px;
+    margin-bottom: 11px;
 }
 
 #dashdash{
@@ -31,22 +32,40 @@
     border-top: 2px solid black;
 }
 
+.contact-redbox {
+    height: 400px;
+    padding-top: 5px;
+}
+
+.contact-redbox p {
+    font-size: medium;
+}
+
+.what-redbox {
+    height: 600px;
+    background-size: cover;
+}
+
 .redbox-title {
-    margin: 1rem 0 -.8rem 0;
+    margin: 1rem 0 0 0;
     text-transform: uppercase;
 }
 
 .redbox {
-    border: solid darkred 1px;
     font-size: .8rem;
-    background-color: darkred;
+    background-image: url(../img/nav_side.jpg);
     color: white;
-    padding-bottom: 2rem;   
 }
 
 .news {
   overflow-y: scroll;
-  max-height: 425px;
+  height: 486px;
+  width: inherit;
+  padding: 15px 20px;
+}
+
+#news-divider {
+    margin: 5px 0;
 }
 
 .redbox li {
@@ -62,7 +81,6 @@
 }
 
 .redbox a{
-    padding: 20px 20px 0px 20px;
     font-size: 20px;
 }
 
@@ -75,10 +93,6 @@
 #bigshot li {
    margin: 0;
    padding: 0;
-}
-
-#bigshot {
-    margin-top: 40px;
 }
 
 #bigshot h6 {
@@ -116,6 +130,10 @@ main {
     padding: 20px;
 }
 
+strong {
+    font-weight: bold;
+}
+
 .row {
     margin: 0 0;
 }
@@ -126,8 +144,23 @@ main {
 }
 
 
-#whatimage {
-    padding-top: 2rem;
+.index-top {
+    margin-bottom: 20px;
+}
+
+#index-img {
+    width: inherit;
+}
+
+.whatimage {
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+}
+
+.whatcol {
+    padding-left: 0;
+    margin-right: 5px;
 }
 
 #contact-links {
@@ -136,7 +169,7 @@ main {
     background-repeat: no-repeat;
     padding-top: 15px;
     padding-right: 15px;
-    max-width: 200px;
+    height: 425px;
 }
    
 #contact-links img {
@@ -145,9 +178,14 @@ main {
     object-fit: fill;
 }
 
-#contact-links a {
+#contact-links-top a {
     text-decoration: none;
     color: #8B465B;
+}
+
+#contact-links-bottom a {
+    text-decoration: none;
+    color: black;
 }
 
 #contact-links p {
@@ -156,6 +194,8 @@ main {
 
 .pen-paper {
    margin-left: -0.3rem;
-   margin-right: -0,3rem;
+   margin-right: -0.3rem;
+   margin-bottom: 10px;
+   width: inherit;
 }
 
