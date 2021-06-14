@@ -32,6 +32,15 @@
     border-top: 2px solid black;
 }
 
+<<<<<<< HEAD
+#redbox-title {
+    margin: 1rem 0 -.8rem 0;
+    text-transform: uppercase;
+}
+
+#redbox {
+    border: solid darkred 1px;
+=======
 .contact-redbox {
     height: 400px;
     padding-top: 5px;
@@ -54,9 +63,13 @@
 }
 
 .redbox {
+>>>>>>> 35b28171465609187f3c0e39e1f98ce5f64c5ceb
     font-size: .8rem;
     background-image: url(../img/nav_side.jpg);
     color: white;
+<<<<<<< HEAD
+    padding-bottom: .5rem;
+=======
 }
 
 .news {
@@ -68,20 +81,22 @@
 
 #news-divider {
     margin: 5px 0;
+>>>>>>> 35b28171465609187f3c0e39e1f98ce5f64c5ceb
 }
 
-.redbox li {
+#redbox li {
     list-style-type: none;
     margin-left: -1.5rem;
     margin-top: -.1rem;
 }
 
-
-.redbox hr {
+#redbox hr {
     background-color: white;
     height: .04rem;
 }
 
+<<<<<<< HEAD
+=======
 .redbox a{
     font-size: 20px;
 }
@@ -105,6 +120,7 @@
     font-weight: bold;
 }
 
+>>>>>>> 35b28171465609187f3c0e39e1f98ce5f64c5ceb
 #chair-photo {
     margin-left: -.3rem;
     margin-bottom: .3rem;
@@ -112,10 +128,6 @@
 
 #list-margin {
     margin-top: -.5rem;
-}
-
-#attorneyspaceproblem p {
-    margin: 0rem;
 }
 
 #contact-tel {
@@ -129,6 +141,9 @@ body {
     background-size: cover;
     font-family: 'Arimo', Arial, Helvetica, sans-serif;
     font-weight: 100;
+    padding: 20px;
+    font-family: 'Arimo', sans-serif;
+    
 }
 
 main {
@@ -136,12 +151,24 @@ main {
     padding: 20px;
 }
 
+<<<<<<< HEAD
+#whatimage {
+    padding-top: 2rem;
+=======
 strong {
     font-weight: bold;
 }
 
 .row {
     margin: 0 0;
+}
+
+.row-eq-height > .column:last-of-type {
+  display: flex;
+}
+
+.row-eq-height > .column:last-of-type .redbox {
+  flex-grow: 1;
 }
 
 .whitespace {
@@ -167,6 +194,7 @@ strong {
 .whatcol {
     padding-left: 0;
     margin-right: 5px;
+>>>>>>> 35b28171465609187f3c0e39e1f98ce5f64c5ceb
 }
 
 #contact-links {
@@ -182,7 +210,7 @@ strong {
 #contact-links img {
     max-width: 100%;
     padding-bottom: 15px;
-    object-fit: fill;
+    object-fit: contain;
 }
 
 #contact-links-top a {
