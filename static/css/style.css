@@ -59,9 +59,13 @@
 
 .news {
   overflow-y: scroll;
-  height: 402px;
+  max-height: 480px;
   width: inherit;
   padding: 15px 20px;
+}
+
+.pics_in_a_row {
+  display: flex;
 }
 
 #news-divider {
